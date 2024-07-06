@@ -23,10 +23,9 @@ questions =  [
     {"id": 23, "question": "We should move beyond wage labour.", "effects": {"auth": -1}},
     {"id": 24, "question": "If everyone only thought about themselves, everyone would do well.", "effects": {"right": 1}},
     {"id": 25, "question": "All economic entities should serve the intrest of the society as a whole.", "effects": {"right": -1}},
-{"id": 26, "question": "I would sacrifice other people's lives to save my own.", "effects": {"right": 1}},
-{"id": 27, "question": "When I have a need, I turn to others I know for help.", "effects": {"right": -1}},
-{"id": 28, "question": "When making a decision, I take other 
-people's needs and feelings into account.", "effects": {"right": -1}},
-{"id": 29, "question": "We should reduce coercion.", "effects": {"auth": -1}},
-{"id": 30, "question": "We should address systematic racism.", "effects": {"auth": -1}}
+    {"id": 26, "question": "I would sacrifice other people's lives to save my own.", "effects": {"right": 1}},
+    {"id": 27, "question": "When I have a need, I turn to others I know for help.", "effects": {"right": -1}},
+    {"id": 28, "question": "When making a decision, I take other people's needs and feelings into account.", "effects": {"right": -1}},
+    {"id": 29, "question": "We should reduce coercion.", "effects": {"auth": -1}},
+    {"id": 30, "question": "We should address systematic racism.", "effects": {"auth": -1}}
 ];
