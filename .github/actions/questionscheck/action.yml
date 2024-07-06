@@ -1,0 +1,19 @@
+name: Questions.js check
+
+description: Checks questions.js for errors
+
+runs:
+  using: 'composite'
+  steps:
+    # The caching technique here is to unboundedly add and add to the cache.
+    # You "wrap" the step that appends to disk and it will possibly retrieve
+    # some from the cache, then save it when it's got more in it.
+    - name: Multiplatform Regex
+      uses: Tilation/multiplatform-regex@v2.2.0
+      with:
+        github: ${{ github.repository }}
+        ref:  'main'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        regex: 'questions =  \[\n(\s*?{"id": \d*?, "question": ".*?", "effects": {"(right|auth|prog)": -?(\d)*?}}(,\n|\n\]))*?;\z'
+        file: 'questions.js'
+        debug: true
