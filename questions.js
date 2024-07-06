@@ -4,12 +4,11 @@ questions =  [
     {"id": 2, "question": "Utillitarianism is a good moral frame work.", "effects": {"right": -1}},
     {"id": 3, "question": ". If people want to live unhealthy lifestyles, it is their right to do so.", "effects": {"right": 1}},
     {"id": 5, "question": "Planned economies are better than market ones.", "effects": {"right": -1}},
-    {"id": 6, "question": "People are too obsessed with having a comfortable life as opposed to thinking more about how they could contribute.", "effects": {"right": -1}},
+    {"id": 6, "question": "People should not be ranked.", "effects": {"auth": -1}},
     {"id": 7, "question": "Individual goals are more important than group goals.", "effects": {"right": 1}},
     {"id": 8, "question": "Cooperation is more important than independence.", "effects": {"right": -1}},
-    {"id": 9, "question": "No individual should ever be required to serve any collective expectation.", "effects": {"right": 1}},
-    {"id": 10, "question": "I am more important than others.", "effects": {"right": 1}},
-    {"id": 11, "question": "Authority corrupts both ruler and ruled ones.", "effects": {"auth": -1}},
+    {"id": 9, "question": "No individual should ever be required to serve any expectation.", "effects": {"auth": -1}},
+    {"id": 11, "question": "Authority corrupts both rulers and ruled ones.", "effects": {"auth": -1}},
     {"id": 12, "question": "The truth is, no one of us can be truly free until everybody is free.", "effects": {"auth": -1}},
     {"id": 13, "question": "It is in the individual's interest to help others.", "effects": {"right": -1}},
     {"id": 14, "question": "Economic inequality is too high in the world.", "effects": {"auth": -1}},
@@ -21,9 +20,13 @@ questions =  [
     {"id": 20, "question": "People who can, but choose not to work, should not get any help from others.", "effects": {"auth": 1}},
     {"id": 21, "question": "It is foolish to seek to do away with inequalities based on social standing and class.", "effects": {"auth": 1}},
     {"id": 22, "question": "Slavery can be justified if it's productive enough.", "effects": {"auth": 1}},
-    {"id": 23, "question": "We should move beyond wage systems.", "effects": {"auth": -1}},
-    {"id": 24, "question": "If everyone only thought about themselves, everyone would do well.", "effects": {"right": -1}},
+    {"id": 23, "question": "We should move beyond wage labour.", "effects": {"auth": -1}},
+    {"id": 24, "question": "If everyone only thought about themselves, everyone would do well.", "effects": {"right": 1}},
     {"id": 25, "question": "All economic entities should serve the intrest of the society as a whole.", "effects": {"right": -1}},
 {"id": 26, "question": "I would sacrifice other people's lives to save my own.", "effects": {"right": 1}},
-    {"id": 27, "question": "There is no \"society\", only individuals.", "effects": {"right": 1}}
+{"id": 27, "question": "When I have a need, I turn to others I know for help.", "effects": {"right": -1}},
+{"id": 28, "question": "When making a decision, I take other 
+people's needs and feelings into account.", "effects": {"right": -1}},
+{"id": 29, "question": "We should reduce coercion.", "effects": {"auth": -1}},
+{"id": 30, "question": "We should address systematic racism.", "effects": {"auth": -1}}
 ];
