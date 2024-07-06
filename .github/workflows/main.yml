@@ -1,0 +1,20 @@
+            - name: Multiplatform Regex
+  # You may pin to the exact commit or the version.
+  # uses: Tilation/multiplatform-regex@15e81d7d784b76981c4b7381f8f646d5fa988f25
+  uses: Tilation/multiplatform-regex@v2.2.0
+  with:
+    # The owner and repository that owns the file.
+    github: 'polittest/SapplyValues'
+    # The reference to use for getting the file, can be a commit sha, branch name, or tag.
+    ref: 'master'
+    # A github token that has read access to the repository.
+    token: '${{ secrets.KEY }}'
+    # The regex match string.
+    regex: 'questions =  \[\n(\s*?{"id": \d*?, "question": ".*?", "effects": {"(right|auth|prog)": -?(\d)*?}}(,\n|\n\]))*?;\z'
+    # The directory to the file to read, relative to the root of the specified repository.
+    file: 'questions.js'
+    # Debug output toggle, will output to the console all the matches with every group. false by default.
+    debug: # optional
+  env: # Or as an environment variable
+    super_secret: ${{ secrets.KEY }}
+          
